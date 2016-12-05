@@ -1,0 +1,58 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+body > header {
+  position: relative;
+  padding: 1.5%;
+  text-align: center;
+}
+aside {
+  width: 30%;
+  position: relative;
+  float: left;
+}
+div {
+  position: relative;
+  border-width: thin;
+  border-style: solid;
+}
+legend {
+  text-align: justify;
+}
+section > header {
+  position: relative;
+  text-align: center;
+  padding: 5px;
+}
+.gameboard {
+  background-color: #CCCCCC;
+  position: relative;
+  width: 70%;
+  float: right;
+}
+.block {
+  position: inherit;
+  height: 50px;
+  width: 50px;
+  border-color: black;
+}
+.closed {
+  background-color: #AAAAAA;
+}
+.opened {
+  background-color: transparent;
+}
+.exploded {
+  background-color: #ff0000;
+}
+.mine {
+  background: url(../img/flag.svg) no-repeat 50% 50%;
+  background-size: 80%;
+}
+.bomb {
+  background: url(../img/bomb.svg) no-repeat 50% 50%;
+  background-size: 80%;
+}
+.number {
+  text-align: center;
+}

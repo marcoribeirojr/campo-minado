@@ -3,35 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Campo Minado</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
     <header>
-      Campo Minado
+      <h1>Campo Minado</h1>
     </header>
 
     <aside>
-      
+
       <section class="legend">
         <header>Legenda</header>
         <content>
           <p><img src="img/flag.svg" alt="bandeira"> Clique com o botão direito para marcar uma mina no local.</p>
-          <p>Os Números marcam a quantidade de minas em volta do bloco numerado.</p>
+          <p>Os números marcados em um bloco indicam a quantidade de minas em volta dele.</p>
         </content>
       </section>
 
       <section class="score">
         <header>Placar</header>
         <content>
-          <p>Minas restantes: <span id="mineRemaning"></span></p>
-          <p>Minas marcadas: <span id="mineMarked"></span></p>
+          <p>Minas restantes: <span id="mine-remaining"></span></p>
+          <p>Minas marcadas: <span id="mine-marked"></span></p>
         </content>
       </section>
 
     </aside>
 
     <section class="gameboard">
-      <gameboard></gameboard>
+      <content></content>
     </section>
 
   </body>
