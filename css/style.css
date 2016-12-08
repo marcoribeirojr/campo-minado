@@ -1,25 +1,20 @@
-body {
+.container {
   font-family: 'Ubuntu', sans-serif;
 }
-body > header {
+.header-body {
   position: relative;
   padding: 1.5%;
   text-align: center;
 }
-aside {
+.sidebar {
   width: 30%;
   position: relative;
   float: left;
 }
-div {
-  position: relative;
-  border-width: thin;
-  border-style: solid;
-}
-legend {
+.legend {
   text-align: justify;
 }
-section > header {
+.header-section {
   position: relative;
   text-align: center;
   padding: 5px;
@@ -31,9 +26,11 @@ section > header {
   float: right;
 }
 .block {
-  position: inherit;
+  position: relative;
   height: 50px;
   width: 50px;
+  border-width: thin;
+  border-style: solid;
   border-color: black;
 }
 .closed {
