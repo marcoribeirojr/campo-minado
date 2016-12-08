@@ -19,8 +19,11 @@
   text-align: center;
   padding: 5px;
 }
-.gameboard {
+.table-game{
   background-color: #CCCCCC;
+  margin: 15px; 
+}
+.gameboard {
   position: relative;
   width: 70%;
   float: right;
@@ -39,9 +42,6 @@
 .opened {
   background-color: transparent;
 }
-.exploded {
-  background-color: #ff0000;
-}
 .mine {
   background: url(../img/flag.svg) no-repeat 50% 50%;
   background-size: 80%;
@@ -49,6 +49,7 @@
 .bomb {
   background: url(../img/bomb.svg) no-repeat 50% 50%;
   background-size: 80%;
+  background-color: red;
 }
 .number {
   text-align: center;
