@@ -14,6 +14,6 @@
     }
     table.appendChild(tr);
   }
-  const gameboard = document.getElementById('gameboard');
-  gameboard.appendChild(table);
+  const gameboard = document.querySelector('div[data-js="gameboard"]');
+  gameboard.appendChild(table);  
 })(9);
