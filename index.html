@@ -15,25 +15,29 @@
     <aside class="sidebar">
 
       <section class="legend">
-        <header class="header-section">Legenda</header>
-        <content>
+        <header class="header-section">
+          <h3>Legenda</h3>
+        </header>
+        <div>
           <p><img src="img/flag.svg" alt="bandeira"> Clique com o botão direito para marcar uma mina no local.</p>
           <p>Os números marcados em um bloco indicam a quantidade de minas em volta dele.</p>
-        </content>
+        </div>
       </section>
 
       <section class="score">
-        <header class="header-section">Placar</header>
-        <content>
-          <p>Minas restantes: <span id="mine-remaining"></span></p>
-          <p>Minas marcadas: <span id="mine-marked"></span></p>
-        </content>
+        <header class="header-section">
+          <h3>Placar</h3>
+        </header>
+        <div>
+          <p>Minas restantes: <span data-js-mines="mine-remaining"></span></p>
+          <p>Minas marcadas: <span data-js-mines="mine-marked"></span></p>
+        </div>
       </section>
 
     </aside>
 
     <section class="gameboard">
-      <content id="gameboard"></content>
+      <div data-js-gameboard="gameboard"></div>
     </section>
 
     <script src="js/newgame.js"></script>
