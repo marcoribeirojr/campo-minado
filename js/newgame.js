@@ -23,6 +23,6 @@ function mineField () {
     });
     table.appendChild(tr);
   });
-  const gameboard = document.querySelector('div[data-js="gameboard"]');
+  const gameboard = document.querySelector('[data-js=gameboard]');
   gameboard.appendChild(table);
 })(9);
