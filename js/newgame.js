@@ -5,7 +5,7 @@ function mineField () {
     [' ',  ' ', ' ']
   ]
 }
-;((length) => {
+;(() => {
   'use strict'
   let table = document.createElement('table');
   table.classList.add('table-game');
@@ -25,4 +25,4 @@ function mineField () {
   });
   const gameboard = document.querySelector('[data-js=gameboard]');
   gameboard.appendChild(table);
-})(9);
+})();
